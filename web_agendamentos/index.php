@@ -9,7 +9,6 @@
 	<link rel="stylesheet" href="css/estilo.css">
 	<script src="js/jquery.js"></script>
 	<script src="bootstrap/js/bootstrap.js"></script>
-	<script src="js/funcoes.js"></script>
 	<title>SISTEMA DE AGENDAMENTO - CLIENTES</title>
 </head> 
 <body> 
@@ -38,7 +37,7 @@
 					<h5 class="card-title">Cadastrar - Agendamento de Potenciais Clientes</h5>
 					<p class="card-text">Sistema utilizado para agendamento de serviços.</p>
 					<p>
-						<form method="post" action="controller/ControllerCadastro.php" id="form" name="form">
+						<form method="post" action="controller/ControllerCadastro.php?funcao=cadastro" id="form" name="form">
 							<div class="form-group">
 								<label for="exampleFormControlInput1">Nome:</label>
 								<input type="text" class="form-control" name="txtNome" required id="txtNome">
